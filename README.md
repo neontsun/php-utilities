@@ -1,6 +1,6 @@
-# PHPUtilities
+# php-utilities
 
-# PHP common and useful Utilities(Helpers)
+# PHP common and useful Utilities (Helpers)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/neontsun/php-utilities.svg?style=flat-square)](https://packagist.org/packages/neontsun/php-utilities)
 [![CodeFactor](https://www.codefactor.io/repository/github/neontsun/php-utilities/badge)](https://www.codefactor.io/repository/github/neontsun/php-utilities)

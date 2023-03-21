@@ -1,0 +1,21 @@
+{
+    "name": "neontsun/php-utilities",
+    "description": "A package of useful features that make development easier.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Neontsun\\Utilities\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Kruglov",
+            "email": "usualtsun@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "10"
+    }
+}

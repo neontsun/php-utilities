@@ -7,6 +7,9 @@ use Neontsun\Utilities\Arr;
 
 final class ArrTest extends TestCase
 {
+    /**
+     * @return void
+     */
     public function testArraySpreadWithoutKeys(): void
     {
         $testArray = [1, 2, 3, 'test', [5, 6, 7, 8, ['9', '10'], 11], '12'];
@@ -18,6 +21,9 @@ final class ArrTest extends TestCase
         $this->assertSame($correctArray, $resolvedArray);
     }
 
+    /**
+     * @return void
+     */
     public function testArraySpreadWithKeys(): void
     {
         $testArray = [

@@ -3,7 +3,10 @@
     "description": "A package of useful features that make development easier.",
     "keywords": [
         "neontsun",
-        "php-utilities"
+        "php-utilities",
+        "php",
+        "utilities",
+        "helpers"
     ],
     "homepage": "https://github.com/neontsun/php-utilities",
     "type": "library",
@@ -11,17 +14,28 @@
     "authors": [
         {
             "name": "Anton Kruglov",
-            "email": "usualtsun@gmail.com"
+            "email": "usualtsun@gmail.com",
+            "homepage": "https://github.com/neontsun/",
+            "role": "developer"
         }
     ],
+    "support": {
+        "email": "usualtsun@gmail.com"
+    },
     "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
     "require-dev": {
-        "phpunit/phpunit": "10"
+        "phpunit/phpunit": "9.*"
     },
     "autoload": {
         "psr-4": {
             "Neontsun\\Utilities\\": "src/"
-        }
+        },
+        "files": [
+            "src/Polifill/Constants.php"
+        ]
     },
     "scripts": {
         "tests": "phpunit tests"

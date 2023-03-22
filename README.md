@@ -25,7 +25,7 @@ $resolved = Arr::spread([1 => 2, 3 => [2, 3]], true);
 ### Testing
 
 ``` bash
-composer test
+composer tests
 ```
 
 ### Changelog
